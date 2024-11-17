@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="google_red">#DB4437</color>
+    <color name="mustard">#E1AD01</color>
+    <color name="hunter_green">#355E3B</color>
+    <color name="primrose">#f0e79d</color>
+    <color name="olive_black">#3B3C36</color>
+    <color name="auburn">#922724</color>
+    <color name="yinmn_blue">#094ef9</color>
+    <color name="tyrian_purple">#66023C</color>
+    <color name="wild_strawberry">#fd3f92</color>
+    <color name="green_yellow">#ADFF2F</color>
+    <color name="cornflower_blue">#6495ED</color>
+    <color name="african_purple">#B284BE</color>
+    <color name="joker_red">#FB8085</color>
+    <color name="mother_love">#D04059</color>
+    <color name="timer_blue">#434B93</color>
+    <color name="lime_blue">#08e1ae</color>
+    <color name="lime_green">#98de5b</color>
+    <color name="bar_color_tertiary">#F93C03</color>
+    <color name="pink_love">#FE5858</color>
+    <color name="plain_orange">#EE9617</color>
+    <color name="bleached_orange">#FFF5EE</color>
+    <color name="lime_white">#F0FFF0</color>
+    <color name="grey_streets">#5F6368</color>
+    <color name="faded_smoke">#F8F8F8</color>
+    <color name="stained_wood">#e59c53</color>
+    <color name="mud_gold">#201610</color>
+    <color name="sunrise">#FFEFBA</color>
+    <color name="clouds">#ECE9E6</color>
+    <color name="correct">#20bf55</color>
+    <color name="wrong">#F53844</color>
+    <color name="start_blue">#09C6F9</color>
+    <color name="center_blue">#2CB5DD</color>
+    <color name="end_blue">#3EADCF</color>
+    <color name="quizpert_green">#09F9B4</color>
+    <color name="stain_blue">#00aeef</color>
+    <color name="fjdf">#D04059</color>
+    <color name="quiz_red">#ed1c24</color>
+    <color name="quiz_red_orange">#ef4136</color>
+    <color name="quizpert_yellow">#FFF200</color>
+    <color name="quizpert_dark_purple">#6b1a0f</color>
+    <color name="quizpert_light_purple">#b91372</color>
+    <color name="quizpert_dark_green">#57b59b</color>
+    <color name="quizpert_light_green">#74f2ce</color>
+    <color name="quizpert_dark_yellow">#ffbe0b</color>
+    <color name="light_board">#ffdd79</color>
+    <color name="medium_board">#f2d374</color>
+    <color name="dark_board">#e6c86e</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <!-- Opacity-->
+    <color name="black75">#BF000000</color>
+    <color name="black70">#B3000000</color>
+    <color name="black60">#99000000</color>
+    <color name="black50">#80000000</color>
+    <color name="black40">#66000000</color>
+    <color name="black35">#59000000</color>
+    <color name="black30">#4D000000</color>
+
+
+</resources>

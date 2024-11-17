@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <corners
+        android:bottomLeftRadius="200dp"
+        android:topRightRadius="200dp"
+        android:bottomRightRadius="50dp"
+        android:topLeftRadius="50dp"/>
+
+
+    <gradient
+        android:startColor="#ffbe0b"
+        android:centerColor="#ff9966"
+        android:type="linear"
+        android:endColor="@color/quiz_red"
+        android:angle="45"/>
+
+
+
+</shape>

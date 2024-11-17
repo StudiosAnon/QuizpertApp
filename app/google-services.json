@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1062907453728",
+    "project_id": "quizpert-property",
+    "storage_bucket": "quizpert-property.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062907453728:android:679192d0be9156df383745",
+        "android_client_info": {
+          "package_name": "com.anonstudio.quizpert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062907453728-ob18vs6lluqqhhgmvnc5das5c0on97bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoJysr9RYOI76bFK100X1wsbN1W9vhedQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062907453728-ob18vs6lluqqhhgmvnc5das5c0on97bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

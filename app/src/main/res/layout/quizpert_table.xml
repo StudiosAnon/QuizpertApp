@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tbl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/tbl2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow android:background="@color/dark_board">
+
+
+
+            <Spinner
+                android:id="@+id/category_dropdown"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:dropDownWidth="wrap_content"
+                android:spinnerMode="dropdown"
+                android:popupBackground="@drawable/custom_spinner_dropdown"/>
+
+
+            <Button
+                android:id="@+id/close_score_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_board"
+                android:textColor="@color/olive_black"
+                android:layout_weight="1"
+                android:text="@string/close" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tbl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/tbl3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbl1">
+
+        <!-- Table Heading -->
+
+
+        <TableRow android:background="@color/medium_board">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/chapter"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/attempts"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/highscore"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/trophy"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+
+        </TableRow>
+
+        <!-- Table Data -->
+
+        <TableRow android:background="@color/light_board">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/one"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/attempt_one"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/highscore_one"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <ImageView
+                android:id="@+id/trophy_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_no_trophy"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10ssp" />
+
+
+        </TableRow>
+
+        <TableRow android:background="@color/light_board">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/two"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/attempt_two"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/highscore_two"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <ImageView
+                android:id="@+id/trophy_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_no_trophy"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10ssp" />
+
+
+        </TableRow>
+
+        <TableRow android:background="@color/light_board">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/three"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/attempt_three"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/highscore_three"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <ImageView
+                android:id="@+id/trophy_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_no_trophy"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10ssp"/>
+
+
+        </TableRow>
+
+        <TableRow android:background="@color/light_board"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/four"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/attempt_four"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/highscore_four"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <ImageView
+                android:id="@+id/trophy_four"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_no_trophy"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10ssp"/>
+
+
+        </TableRow>
+
+        <TableRow android:background="@color/light_board">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/five"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/attempt_five"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/highscore_five"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <ImageView
+                android:id="@+id/trophy_five"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_no_trophy"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10ssp" />
+
+
+        </TableRow>
+
+        <TableRow android:background="@color/light_board">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/six"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/attempt_six"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/highscore_six"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_11ssp" />
+
+            <ImageView
+                android:id="@+id/trophy_six"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_no_trophy"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10ssp" />
+
+
+        </TableRow>
+
+        <TableRow android:background="@color/light_board">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/seven"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/attempt_seven"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/highscore_seven"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <ImageView
+                android:id="@+id/trophy_seven"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_no_trophy"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10ssp" />
+
+
+        </TableRow>
+
+        <TableRow android:background="@color/light_board">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="@string/eight"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/attempt_eight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/highscore_eight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+            <ImageView
+                android:id="@+id/trophy_eight"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_no_trophy"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10ssp" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tbl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbl2"
+        >
+
+        <TableRow android:background="@color/dark_board">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="10sp"
+                android:text="@string/trophy_note"
+                android:textColor="@color/olive_black"
+                android:textSize="@dimen/_10ssp" />
+
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

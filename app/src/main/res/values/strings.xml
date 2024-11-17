@@ -1,0 +1,832 @@
+<resources>
+    <string name="app_name">Quizpert</string>
+    <string name="chapter">Chapter</string>
+    <string name="attempts">Attempts</string>
+    <string name="highscore">HighScore</string>
+    <string name="trophy">Trophy</string>
+
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+
+    <!-- Months-->
+
+    <string-array name="months">
+
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+
+    </string-array>
+
+    <!--Mr. Unreliable Answers-->
+
+    <string-array name="mr_unreliable_answers">
+
+        <item>I\'m not sure, it might be </item>
+        <item>I\'m a 100% percent sure, that it\'s </item>
+        <item>It just might be </item>
+        <item>I have no idea, I\'m just going to go with the option </item>
+        <item>This question hard as hell man. Try the option </item>
+        <item>I\'ve convinced myself that it\'s </item>
+        <item>I ain\'t going to get this question right but try </item>
+        <item>It\'s definitely </item>
+        <item>I believe the answer is </item>
+        <item>I can hear the error tone already, try </item>
+        <item>This is a tough question, I think it\'s </item>
+        <item>To be honest my friend, I don\'t know the answer but try </item>
+
+    </string-array>
+
+    <!-- Quizpert Category Scores-->
+    <string-array name="category_scores">
+
+        <item>Science Scores</item>
+        <item>Music Scores</item>
+        <item>History Scores</item>
+        <item>Mathematics Scores</item>
+        <item>Arts Scores</item>
+        <item>Geography Scores</item>
+
+
+    </string-array>
+
+    <!--CATEGORY TABLE ATTRIBUTES-->
+
+    <!--Science Attributes-->
+    <string-array name="sci_category_attempts">
+
+        <item>sciAttemptsMadeChapter 1</item>
+        <item>sciAttemptsMadeChapter 2</item>
+        <item>sciAttemptsMadeChapter 3</item>
+        <item>sciAttemptsMadeChapter 4</item>
+        <item>sciAttemptsMadeChapter 5</item>
+        <item>sciAttemptsMadeChapter 6</item>
+        <item>sciAttemptsMadeChapter 7</item>
+        <item>sciAttemptsMadeChapter 8</item>
+
+    </string-array>
+
+    <string-array name="sci_category_highscore">
+
+        <item>sciHighScoreChapter 1</item>
+        <item>sciHighScoreChapter 2</item>
+        <item>sciHighScoreChapter 3</item>
+        <item>sciHighScoreChapter 4</item>
+        <item>sciHighScoreChapter 5</item>
+        <item>sciHighScoreChapter 6</item>
+        <item>sciHighScoreChapter 7</item>
+        <item>sciHighScoreChapter 8</item>
+
+    </string-array>
+
+    <string-array name="sci_category_trophy">
+
+        <item>sciTrophyChapter 1</item>
+        <item>sciTrophyChapter 2</item>
+        <item>sciTrophyChapter 3</item>
+        <item>sciTrophyChapter 4</item>
+        <item>sciTrophyChapter 5</item>
+        <item>sciTrophyChapter 6</item>
+        <item>sciTrophyChapter 7</item>
+        <item>sciTrophyChapter 8</item>
+
+    </string-array>
+
+    <!--Music Attributes-->
+    <string-array name="mus_category_attempts">
+
+        <item>musAttemptsMadeChapter 1</item>
+        <item>musAttemptsMadeChapter 2</item>
+        <item>musAttemptsMadeChapter 3</item>
+        <item>musAttemptsMadeChapter 4</item>
+        <item>musAttemptsMadeChapter 5</item>
+        <item>musAttemptsMadeChapter 6</item>
+        <item>musAttemptsMadeChapter 7</item>
+        <item>musAttemptsMadeChapter 8</item>
+
+    </string-array>
+
+    <string-array name="mus_category_highscore">
+
+        <item>musHighScoreChapter 1</item>
+        <item>musHighScoreChapter 2</item>
+        <item>musHighScoreChapter 3</item>
+        <item>musHighScoreChapter 4</item>
+        <item>musHighScoreChapter 5</item>
+        <item>musHighScoreChapter 6</item>
+        <item>musHighScoreChapter 7</item>
+        <item>musHighScoreChapter 8</item>
+
+    </string-array>
+
+    <string-array name="mus_category_trophy">
+
+        <item>musTrophyChapter 1</item>
+        <item>musTrophyChapter 2</item>
+        <item>musTrophyChapter 3</item>
+        <item>musTrophyChapter 4</item>
+        <item>musTrophyChapter 5</item>
+        <item>musTrophyChapter 6</item>
+        <item>musTrophyChapter 7</item>
+        <item>musTrophyChapter 8</item>
+
+    </string-array>
+
+    <!--History Attributes-->
+    <string-array name="his_category_attempts">
+
+        <item>hisAttemptsMadeChapter 1</item>
+        <item>hisAttemptsMadeChapter 2</item>
+        <item>hisAttemptsMadeChapter 3</item>
+        <item>hisAttemptsMadeChapter 4</item>
+        <item>hisAttemptsMadeChapter 5</item>
+        <item>hisAttemptsMadeChapter 6</item>
+        <item>hisAttemptsMadeChapter 7</item>
+        <item>hisAttemptsMadeChapter 8</item>
+
+    </string-array>
+
+    <string-array name="his_category_highscore">
+
+        <item>hisHighScoreChapter 1</item>
+        <item>hisHighScoreChapter 2</item>
+        <item>hisHighScoreChapter 3</item>
+        <item>hisHighScoreChapter 4</item>
+        <item>hisHighScoreChapter 5</item>
+        <item>hisHighScoreChapter 6</item>
+        <item>hisHighScoreChapter 7</item>
+        <item>hisHighScoreChapter 8</item>
+
+    </string-array>
+
+    <string-array name="his_category_trophy">
+
+        <item>hisTrophyChapter 1</item>
+        <item>hisTrophyChapter 2</item>
+        <item>hisTrophyChapter 3</item>
+        <item>hisTrophyChapter 4</item>
+        <item>hisTrophyChapter 5</item>
+        <item>hisTrophyChapter 6</item>
+        <item>hisTrophyChapter 7</item>
+        <item>hisTrophyChapter 8</item>
+
+    </string-array>
+
+    <!--Math Attributes-->
+    <string-array name="math_category_attempts">
+
+        <item>mathAttemptsMadeChapter 1</item>
+        <item>mathAttemptsMadeChapter 2</item>
+        <item>mathAttemptsMadeChapter 3</item>
+        <item>mathAttemptsMadeChapter 4</item>
+        <item>mathAttemptsMadeChapter 5</item>
+        <item>mathAttemptsMadeChapter 6</item>
+        <item>mathAttemptsMadeChapter 7</item>
+        <item>mathAttemptsMadeChapter 8</item>
+
+    </string-array>
+
+    <string-array name="math_category_highscore">
+
+        <item>mathHighScoreChapter 1</item>
+        <item>mathHighScoreChapter 2</item>
+        <item>mathHighScoreChapter 3</item>
+        <item>mathHighScoreChapter 4</item>
+        <item>mathHighScoreChapter 5</item>
+        <item>mathHighScoreChapter 6</item>
+        <item>mathHighScoreChapter 7</item>
+        <item>mathHighScoreChapter 8</item>
+
+    </string-array>
+
+    <string-array name="math_category_trophy">
+
+        <item>mathTrophyChapter 1</item>
+        <item>mathTrophyChapter 2</item>
+        <item>mathTrophyChapter 3</item>
+        <item>mathTrophyChapter 4</item>
+        <item>mathTrophyChapter 5</item>
+        <item>mathTrophyChapter 6</item>
+        <item>mathTrophyChapter 7</item>
+        <item>mathTrophyChapter 8</item>
+
+    </string-array>
+
+    <!--Art Attributes-->
+    <string-array name="art_category_attempts">
+
+        <item>artAttemptsMadeChapter 1</item>
+        <item>artAttemptsMadeChapter 2</item>
+        <item>artAttemptsMadeChapter 3</item>
+        <item>artAttemptsMadeChapter 4</item>
+        <item>artAttemptsMadeChapter 5</item>
+        <item>artAttemptsMadeChapter 6</item>
+        <item>artAttemptsMadeChapter 7</item>
+        <item>artAttemptsMadeChapter 8</item>
+
+    </string-array>
+
+    <string-array name="art_category_highscore">
+
+        <item>artHighScoreChapter 1</item>
+        <item>artHighScoreChapter 2</item>
+        <item>artHighScoreChapter 3</item>
+        <item>artHighScoreChapter 4</item>
+        <item>artHighScoreChapter 5</item>
+        <item>artHighScoreChapter 6</item>
+        <item>artHighScoreChapter 7</item>
+        <item>artHighScoreChapter 8</item>
+
+    </string-array>
+
+    <string-array name="art_category_trophy">
+
+        <item>artTrophyChapter 1</item>
+        <item>artTrophyChapter 2</item>
+        <item>artTrophyChapter 3</item>
+        <item>artTrophyChapter 4</item>
+        <item>artTrophyChapter 5</item>
+        <item>artTrophyChapter 6</item>
+        <item>artTrophyChapter 7</item>
+        <item>artTrophyChapter 8</item>
+
+    </string-array>
+
+    <!--Geo Attributes-->
+    <string-array name="geo_category_attempts">
+
+        <item>geoAttemptsMadeChapter 1</item>
+        <item>geoAttemptsMadeChapter 2</item>
+        <item>geoAttemptsMadeChapter 3</item>
+        <item>geoAttemptsMadeChapter 4</item>
+        <item>geoAttemptsMadeChapter 5</item>
+        <item>geoAttemptsMadeChapter 6</item>
+        <item>geoAttemptsMadeChapter 7</item>
+        <item>geoAttemptsMadeChapter 8</item>
+
+    </string-array>
+
+    <string-array name="geo_category_highscore">
+
+        <item>geoHighScoreChapter 1</item>
+        <item>geoHighScoreChapter 2</item>
+        <item>geoHighScoreChapter 3</item>
+        <item>geoHighScoreChapter 4</item>
+        <item>geoHighScoreChapter 5</item>
+        <item>geoHighScoreChapter 6</item>
+        <item>geoHighScoreChapter 7</item>
+        <item>geoHighScoreChapter 8</item>
+
+    </string-array>
+
+    <string-array name="geo_category_trophy">
+
+        <item>geoTrophyChapter 1</item>
+        <item>geoTrophyChapter 2</item>
+        <item>geoTrophyChapter 3</item>
+        <item>geoTrophyChapter 4</item>
+        <item>geoTrophyChapter 5</item>
+        <item>geoTrophyChapter 6</item>
+        <item>geoTrophyChapter 7</item>
+        <item>geoTrophyChapter 8</item>
+
+    </string-array>
+
+    <!-- Categories-->
+    <string name="science">Science</string>
+    <string name="music">Music</string>
+    <string name="history">History</string>
+    <string name="math">Math</string>
+    <string name="art">Art</string>
+    <string name="geography">Geography</string>
+
+    <string-array name="categories_array">
+
+        <item>@string/science</item>
+        <item>@string/music</item>
+        <item>@string/history</item>
+        <item>@string/math</item>
+        <item>@string/art</item>
+        <item>@string/geography</item>
+
+
+    </string-array>
+
+    <string-array name="empty_categories_array">
+
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+
+    </string-array>
+
+    <!-- Science Chapters-->
+    <string name="space">Space</string>
+    <string name="plants">Plants</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="scientists">Scientists</string>
+    <string name="geology">Geology</string>
+    <string name="physics">Physics</string>
+    <string name="sci_random">Random</string>
+    <string name="quantum">Quantum Mechanics</string>
+
+    <string-array name="sci_chapters_name">
+
+        <item>@string/space</item>
+        <item>@string/plants</item>
+        <item>@string/chemistry</item>
+        <item>@string/scientists</item>
+        <item>@string/geology</item>
+        <item>@string/physics</item>
+        <item>@string/sci_random</item>
+        <item>@string/quantum</item>
+
+    </string-array>
+
+    <!-- Music Chapters-->
+    <string name="ns">Notes and Scales</string>
+    <string name="instruments">Instruments</string>
+    <string name="cc">Composers</string>
+    <string name="terms">Musical Terms</string>
+    <string name="baroque">Baroque Period</string>
+    <string name="jazz">Jazz</string>
+    <string name="mus_random">Random</string>
+    <string name="guess_singer_80s">Guess the Singer/Band</string>
+
+    <string-array name="mus_chapters_name">
+
+        <item>@string/ns</item>
+        <item>@string/instruments</item>
+        <item>@string/cc</item>
+        <item>@string/terms</item>
+        <item>@string/baroque</item>
+        <item>@string/jazz</item>
+        <item>@string/mus_random</item>
+        <item>@string/guess_singer_80s</item>
+
+    </string-array>
+
+    <!--History Chapters-->
+    <string name="indus">Indus Valley</string>
+    <string name="mesopotamia">Ancient Mesopotamia</string>
+    <string name="egypt">Ancient Egypt</string>
+    <string name="china">Ancient China</string>
+    <string name="greece">Ancient Greece</string>
+    <string name="romans">Romans</string>
+    <string name="tarascan">Tarascan Empire</string>
+    <string name="his_random">Random</string>
+
+    <string-array name="his_chapters_name">
+
+        <item>@string/indus</item>
+        <item>@string/mesopotamia</item>
+        <item>@string/egypt</item>
+        <item>@string/china</item>
+        <item>@string/greece</item>
+        <item>@string/romans</item>
+        <item>@string/tarascan</item>
+        <item>@string/his_random</item>
+
+    </string-array>
+
+    <!--Math Chapters-->
+    <string name="addition">Addition</string>
+    <string name="subtraction">Substraction</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="exponents">Exponents</string>
+    <string name="math_random">Random</string>
+    <string name="algebra">Algebra</string>
+    <string name="worded_problems">Worded Problems</string>
+
+    <string-array name="math_chapters_name">
+
+        <item>@string/addition</item>
+        <item>@string/subtraction</item>
+        <item>@string/multiplication</item>
+        <item>@string/division</item>
+        <item>@string/exponents</item>
+        <item>@string/math_random</item>
+        <item>@string/algebra</item>
+        <item>@string/worded_problems</item>
+
+    </string-array>
+
+    <!--Arts Chapters-->
+    <string name="painters">Who Painted?</string>
+    <string name="sculptures">Who sculpted?</string>
+    <string name="art_terms">Art Terms</string>
+    <string name="renaissance_artists">Renaissance Artists</string>
+    <string name="baroque_artists">Baroque Artists</string>
+    <string name="movie_villains">Movie villains</string>
+    <string name="movie_directors">Who directed?</string>
+    <string name="arts_random">Random</string>
+
+    <string-array name="arts_chapters_name">
+
+        <item>@string/painters</item>
+        <item>@string/sculptures</item>
+        <item>@string/art_terms</item>
+        <item>@string/renaissance_artists</item>
+        <item>@string/baroque_artists</item>
+        <item>@string/movie_villains</item>
+        <item>@string/movie_directors</item>
+        <item>@string/arts_random</item>
+
+    </string-array>
+
+    <!--Geography Chapters-->
+    <string name="americas">The Americas Capitals…</string>
+    <string name="european_ccl">European Capitals…</string>
+    <string name="african_ccl">African Capitals…</string>
+    <string name="asia_ccl">Asia Capitals…</string>
+    <string name="oceania_ccl">Oceania Capitals…</string>
+    <string name="africa">Africa</string>
+    <string name="asia">Asia</string>
+    <string name="europe">Europe</string>
+
+    <string-array name="geo_chapters_name">
+
+        <item>@string/americas</item>
+        <item>@string/european_ccl</item>
+        <item>@string/african_ccl</item>
+        <item>@string/asia_ccl</item>
+        <item>@string/oceania_ccl</item>
+        <item>@string/africa</item>
+        <item>@string/asia</item>
+        <item>@string/europe</item>
+
+    </string-array>
+
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+
+    <string name="chapter_">Chapter_</string>
+    <string name="app_pref_file">com.anonstudio.quizpert.preferences</string>
+    <string name="gems_pref_file">com.anonstudio.quizpert.preferences.gems</string>
+    <string name="music_pref_key">com.anonstudio.quizpert.preferences.music_state</string>
+    <string name="sound_pref_key">com.anonstudio.quizpert.preferences.sound_state</string>
+    <string name="user_guide_key">com.anonstudio.quizpert.preferences.user_guide</string>
+    <string name="quiz_table_pref_key">com.anonstudio.quizpert.preferences.quiz_table</string>
+    <string name="cat1_pref_key">com.anonstudio.quizpert.preferences.cat1</string>
+    <string name="cat2_pref_key">com.anonstudio.quizpert.preferences.cat2</string>
+    <string name="cat3_pref_key">com.anonstudio.quizpert.preferences.cat3</string>
+    <string name="cat4_pref_key">com.anonstudio.quizpert.preferences.cat4</string>
+    <string name="cat5_pref_key">com.anonstudio.quizpert.preferences.cat5</string>
+    <string name="cat6_pref_key">com.anonstudio.quizpert.preferences.cat6</string>
+    <string name="quizpert_rules_one">com.anonstudio.quizpert.preferences.rules_one</string>
+    <string name="update_chapters_boolean_pref_key">com.anonstudio.quizpert.preferences.update_chap_bool</string>
+    <string name="updated_menus_pref_key">com.anonstudio.quizpert.preferences.update_menus</string>
+
+
+    <string name="sci_chap1_pref_key">sciChapter_1</string>
+    <string name="sci_chap2_pref_key">sciChapter_2</string>
+    <string name="sci_chap3_pref_key">sciChapter_3</string>
+    <string name="sci_chap4_pref_key">sciChapter_4</string>
+    <string name="sci_chap5_pref_key">sciChapter_5</string>
+    <string name="sci_chap6_pref_key">sciChapter_6</string>
+    <string name="sci_chap7_pref_key">sciChapter_7</string>
+    <string name="sci_chap8_pref_key">sciChapter_8</string>
+
+    <string name="mus_chap1_pref_key">musChapter_1</string>
+    <string name="mus_chap2_pref_key">musChapter_2</string>
+    <string name="mus_chap3_pref_key">musChapter_3</string>
+    <string name="mus_chap4_pref_key">musChapter_4</string>
+    <string name="mus_chap5_pref_key">musChapter_5</string>
+    <string name="mus_chap6_pref_key">musChapter_6</string>
+    <string name="mus_chap7_pref_key">musChapter_7</string>
+    <string name="mus_chap8_pref_key">musChapter_8</string>
+
+    <string name="his_chap1_pref_key">hisChapter_1</string>
+    <string name="his_chap2_pref_key">hisChapter_2</string>
+    <string name="his_chap3_pref_key">hisChapter_3</string>
+    <string name="his_chap4_pref_key">hisChapter_4</string>
+    <string name="his_chap5_pref_key">hisChapter_5</string>
+    <string name="his_chap6_pref_key">hisChapter_6</string>
+    <string name="his_chap7_pref_key">hisChapter_7</string>
+    <string name="his_chap8_pref_key">hisChapter_8</string>
+
+    <string name="math_chap1_pref_key">mathChapter_1</string>
+    <string name="math_chap2_pref_key">mathChapter_2</string>
+    <string name="math_chap3_pref_key">mathChapter_3</string>
+    <string name="math_chap4_pref_key">mathChapter_4</string>
+    <string name="math_chap5_pref_key">mathChapter_5</string>
+    <string name="math_chap6_pref_key">mathChapter_6</string>
+    <string name="math_chap7_pref_key">mathChapter_7</string>
+    <string name="math_chap8_pref_key">mathChapter_8</string>
+
+    <string name="art_chap1_pref_key">artChapter_1</string>
+    <string name="art_chap2_pref_key">artChapter_2</string>
+    <string name="art_chap3_pref_key">artChapter_3</string>
+    <string name="art_chap4_pref_key">artChapter_4</string>
+    <string name="art_chap5_pref_key">artChapter_5</string>
+    <string name="art_chap6_pref_key">artChapter_6</string>
+    <string name="art_chap7_pref_key">artChapter_7</string>
+    <string name="art_chap8_pref_key">artChapter_8</string>
+
+    <string name="geo_chap1_pref_key">geoChapter_1</string>
+    <string name="geo_chap2_pref_key">geoChapter_2</string>
+    <string name="geo_chap3_pref_key">geoChapter_3</string>
+    <string name="geo_chap4_pref_key">geoChapter_4</string>
+    <string name="geo_chap5_pref_key">geoChapter_5</string>
+    <string name="geo_chap6_pref_key">geoChapter_6</string>
+    <string name="geo_chap7_pref_key">geoChapter_7</string>
+    <string name="geo_chap8_pref_key">geoChapter_8</string>
+
+
+    <string name="product_id_one">gems100</string>
+    <string name="product_id_two">gems500</string>
+    <string name="product_id_three">gems1000</string>
+    <string name="product_id_four">gems3000</string>
+    <string name="product_id_five">hearts5</string>
+    <string name="product_id_six">hearts10</string>
+
+    <string name="connection_issue">A Connection couldn\'t be established. Check that your wifi or data connection is turned on, then try again.</string>
+
+    <string name="pk">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt47n0V2hJ/9geQtRfcXXLH8GPP3sJuaUQABCnlgzv79KpavcvKaSVAYRQARWPXZZAlqeD9M52hKLNg4yFzo3pR0Uwopb/Bn2wgh7c0RiNg5mCR4/ppYZd2QGYs3inVuMDk3VoWMC77Utps8subEJUWnH9T4TKGsL0uP2Cr1qGiOk1868QgRdC/HYVvWSAulnssnUSjY8CgZKkyEHmX8pLrNs3b8h0DcPkgK72IsRtRlJP+fVymlhQLoJHu3hDUwnHyexDvbXJV+TzP4SwTVu7xtHURrL5ZU9ZHMzISKp/JJs+hKBcII+2gZ5lYodWjoEi3XWFvJapde9DmiKfj+UkwIDAQAB</string>
+    <string name="default_year">1997</string>
+    <string name="default_day">1</string>
+    <string name="submit">SUBMIT</string>
+    <string name="trophy_note">*Trophies are allotted in each quiz chapter, when a player achieves full marks.</string>
+    <string name="receive_gems">Congratulations you received %s Gems</string>
+    <string name="gems"> Gems</string>
+    <string name="next">Continue</string>
+    <string name="finish">Finish</string>
+    <string name="retry">Retry</string>
+
+    <string name="next_btn">Next</string>
+    <string name="quiz_failed">You Failed</string>
+    <string name="quiz_passed">Success You did it</string>
+    <string name="try_again">Try Again</string>
+    <string name="risk_it">Risk It All</string>
+    <string name="mr_unreliable">Mr. Unreliable</string>
+    <string name="chapters">CHAPTERS</string>
+    <string name="score">SCORE</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="correct">Correct</string>
+    <string name="q_results">Quiz Results</string>
+    <string name="collect_trophy">Collect Trophy</string>
+    <string name="ok_btn">OK</string>
+    <string name="on_btn">ON</string>
+    <string name="sounds">Sounds</string>
+    <string name="music_btn">Music</string>
+    <string name="settings">Settings</string>
+    <string name="dont_show">Don\'t Show</string>
+    <string name="back">Back</string>
+    <string name="go_back">GO BACK</string>
+    <string name="proceed">PROCEED</string>
+    <string name="close">Close</string>
+    <string name="results_image">Results Image</string>
+    <string name="welcome_statement"><u>Welcome to Quizpert</u></string>
+    <string name="user_guide"><u>Brief User Guide</u></string>
+    <string name="settings_menu">Settings Menu - Change music and sound state.</string>
+    <string name="rules_menu">Rules Menu - Find and learn rules about Quizpert.</string>
+    <string name="stats_menu">Statistics Menu - Check trophies won and highscores.</string>
+    <string name="about_menu">About Menu - Find out about the developer etc.</string>
+    <string name="back_btn">Back Button - Navigates to previous screen.</string>
+    <string name="home_btn">Home Button - Navigates to main screen.</string>
+    <string name="store_btn">Store Button - Navigates to the gem store.</string>
+    <string name="settings_btn">Settings Button - Navigates to settings menu.</string>
+    <string name="store">Store</string>
+    <string name="credits">Credits</string>
+    <string name="music_credits">Music Credits</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="video_starting">Video starting in %d…</string>
+    <string name="free_powerup">Watch this video and receive one free powerup.</string>
+
+    <string name="message">%s by %s is licensed under %s</string>
+    //1
+    <string name="the_swan">"JOHN MICHEL CELLO-SAINT SAENS CARNIVAL OF ANIMALS THE SWAN "</string>
+    <string name="is_license_under">" is licensed under "</string>
+    <string name="author_the_swan">" John Michel "</string>
+    <string name="license_the_swan">" CC BY-SA 3.0 "</string>
+
+    <string name="the_swan_title_url">https://commons.wikimedia.org/wiki/File:JOHN_MICHEL_CELLO-SAINT_SAENS_CARNIVAL_OF_ANIMALS_THE_SWAN.ogg</string>
+    <string name="the_swan_author_url">http://johnmichel.com/johnmichel.com/Introduction.html</string>
+    <string name="the_swan_license_url">https://creativecommons.org/licenses/by-sa/3.0/</string>
+    //2
+    <string name="air">"Air on the G String "</string>
+    <string name="author_air">" United States Air Force Strings, conducted by Keith H. Bland "</string>
+    <string name="license_air">" Public Domain, CC0 "</string>
+
+    <string name="air_title_url">https://commons.wikimedia.org/wiki/File:Air.ogg</string>
+    <string name="air_author_url">https://web.archive.org/web/20110722181357/http://www.usafband.af.mil/ensembles/BandEnsSongs.asp?ensemble=57</string>
+    <string name="air_license_url">https://creativecommons.org/publicdomain/mark/1.0/deed.en</string>
+    //3
+    <string name="nocturne">"Chopin Nocturne No. 2 in E Flat Major, Op. 9 "</string>
+    <string name="author_nocturne">" Peter Johnston "</string>
+    <string name="license_nocturne">" Public Domain, CC0 "</string>
+
+    <string name="nocturne_title_url">https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_No._2_in_E_Flat_Major,_Op._9.ogg</string>
+    <string name="nocturne_author_url">https://musopen.org/music/352/</string>
+    <string name="nocturne_license_url">https://creativecommons.org/publicdomain/zero/1.0/deed.en</string>
+    //4
+    <string name="liebestraum">"Franz Liszt - Liebestraum, Ab Major "</string>
+    <string name="author_liebestraum">" Pandora Music "</string>
+    <string name="license_liebestraum">" CC BY-SA 2.0 "</string>
+
+    <string name="liebestraum_ttle_url">https://commons.wikimedia.org/wiki/File:Franz_Liszt_-_Liebestraum,_Ab_Major.ogg</string>
+    <string name="liebestraum_author_url">http://www.ibiblio.org/pandora/vorbis/index.html</string>
+    <string name="liebestraum_license_url">https://creativecommons.org/licenses/by-sa/2.0/</string>
+
+    //5
+    <string name="gnossienne">"Gnossienne 4 (Satie) "</string>
+    <string name="author_gnossienne">" La Pianista "</string>
+    <string name="license_gnossienne">" CC BY-SA 3.0 "</string>
+
+    <string name="gnossienne_title_url">https://commons.wikimedia.org/wiki/File:Gnossienne_4_(Satie).ogg</string>
+    <string name="gnossienne_author_url">https://commons.wikimedia.org/wiki/User:La_Pianista</string>
+    <string name="gnossienne_license_url">https://creativecommons.org/licenses/by-sa/3.0/</string>
+    //6
+    <string name="gymnopedie">"Gymnopedie No. 1 "</string>
+    <string name="author_gymnopedie">" Kevin MacLeod (incompetech.com) "</string>
+    <string name="license_gymnopedie">" CC BY-SA 3.0 "</string>
+
+    <string name="gymnopedie_title_url">https://incompetech.com/music/royalty-free/?keywords=gymnopedie</string>
+    <string name="gymnopedie_author_urk">https://incompetech.filmmusic.io/song/3837-gymnopedie-no-1</string>
+    <string name="gymnopedie_license_url">https://creativecommons.org/licenses/by-sa/3.0/</string>
+
+    <string name="license_under">" is licensed under "</string>
+    <string name="is_in_the">" is in the "</string>
+
+
+    <string name="unlock_chapter">SUCCESSFULLY COMPLETE THE PREVIOUS CHAPTER OR UNLOCK THIS CHAPTER WITH 500 GEMS.</string>
+    <string name="not_enough_gems">YOU DON\'T HAVE ENOUGH GEMS TO UNLOCK THIS CHAPTER. CLICK THE GEM ICON BELOW TO BUY GEMS. </string>
+    <string name="unlock_previous_chaps">YOU MUST UNLOCK THE PREVIOUS CHAPTERS IN SEQUENCE, BEFORE UNLOCKING THIS CHAPTER. YOU CAN PURCHASE THE PREVIOUS CHAPTERS WITH GEMS OR SUCCESSFULLY COMPLETE THEM IN ORDER.</string>
+
+
+    <!-- Quiz Table Prefix-->
+    <string name="scichp1">sciChapter_1</string>
+    <string name="muschp1">musChapter_1</string>
+    <string name="hischp1">hisChapter_1</string>
+    <string name="mathchp1">mathChapter_1</string>
+    <string name="artchp1">artChapter_1</string>
+    <string name="geochp1">geoChapter_1</string>
+
+    <string-array name="sciChapters">
+
+        <item>sciChapter_1</item>
+        <item>sciChapter_2</item>
+        <item>sciChapter_3</item>
+        <item>sciChapter_4</item>
+        <item>sciChapter_5</item>
+        <item>sciChapter_6</item>
+        <item>sciChapter_7</item>
+        <item>sciChapter_8</item>
+
+    </string-array>
+
+
+    <string-array name="musChapters">
+
+        <item>musChapter_1</item>
+        <item>musChapter_2</item>
+        <item>musChapter_3</item>
+        <item>musChapter_4</item>
+        <item>musChapter_5</item>
+        <item>musChapter_6</item>
+        <item>musChapter_7</item>
+        <item>musChapter_8</item>
+
+    </string-array>
+
+    <string-array name="hisChapters">
+
+        <item>hisChapter_1</item>
+        <item>hisChapter_2</item>
+        <item>hisChapter_3</item>
+        <item>hisChapter_4</item>
+        <item>hisChapter_5</item>
+        <item>hisChapter_6</item>
+        <item>hisChapter_7</item>
+        <item>hisChapter_8</item>
+
+    </string-array>
+
+    <string-array name="mathChapters">
+
+        <item>mathChapter_1</item>
+        <item>mathChapter_2</item>
+        <item>mathChapter_3</item>
+        <item>mathChapter_4</item>
+        <item>mathChapter_5</item>
+        <item>mathChapter_6</item>
+        <item>mathChapter_7</item>
+        <item>mathChapter_8</item>
+
+    </string-array>
+
+    <string-array name="artChapters">
+
+        <item>artChapter_1</item>
+        <item>artChapter_2</item>
+        <item>artChapter_3</item>
+        <item>artChapter_4</item>
+        <item>artChapter_5</item>
+        <item>artChapter_6</item>
+        <item>artChapter_7</item>
+        <item>artChapter_8</item>
+
+    </string-array>
+
+    <string-array name="geoChapters">
+
+        <item>geoChapter_1</item>
+        <item>geoChapter_2</item>
+        <item>geoChapter_3</item>
+        <item>geoChapter_4</item>
+        <item>geoChapter_5</item>
+        <item>geoChapter_6</item>
+        <item>geoChapter_7</item>
+        <item>geoChapter_8</item>
+
+    </string-array>
+
+
+    <string-array name="quiz_table_chp1">
+
+        <item>@string/scichp1</item>
+        <item>@string/muschp1</item>
+        <item>@string/hischp1</item>
+        <item>@string/mathchp1</item>
+        <item>@string/artchp1</item>
+        <item>@string/geochp1</item>
+
+    </string-array>
+
+    <string-array name="categories">
+
+        <item>@string/science</item>
+        <item>@string/music</item>
+        <item>@string/history</item>
+        <item>@string/math</item>
+        <item>@string/art</item>
+        <item>@string/geography</item>
+
+    </string-array>
+
+    <string-array name="chapters">
+
+        <item>Chapter 1</item>
+        <item>Chapter 2</item>
+        <item>Chapter 3</item>
+        <item>Chapter 4</item>
+        <item>Chapter 5</item>
+        <item>Chapter 6</item>
+        <item>Chapter 7</item>
+        <item>Chapter 8</item>
+
+    </string-array>
+
+    <string name="settings_description">Settings icon</string>
+
+    <!--Science Questions-->
+
+
+    <string-array name="scirightansArr">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+
+    <string-array name="musrightansArr">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+
+
+    <!--End of Science Answers Array!-->
+
+    <string name="service_description">Plays background audio in Quizpert app.</string>
+    <string name="play">Play</string>
+    <string name="image_description">An icon</string>
+    <string name="category_menu">CATEGORIES</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

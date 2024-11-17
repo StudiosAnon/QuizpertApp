@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/wood_backgroundxxxhdpi"
+    tools:context=".pagefragmenttwo">
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:background="@drawable/science_pagexxxhdpi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/chapter_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="@id/guideline341"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/science_chapter_bannerxxxhdpi" />
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="@id/guideline342"
+            app:layout_constraintEnd_toEndOf="@+id/guideline343"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/guideline341"
+            app:srcCompat="@drawable/chapters_textxxxhdpi" />
+
+
+    <ImageView
+        android:id="@+id/close_chapter_popup"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline336"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline335"
+        app:srcCompat="@drawable/close_buttonxxxhdpi" />
+
+
+
+    <ImageView
+        android:id="@+id/chapter_one"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toBottomOf="@id/guideline344"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/guideline345"
+        app:layout_constraintTop_toTopOf="@+id/guideline342"
+        app:srcCompat="@drawable/space_iconxxxhdpi" />
+
+    <View
+        android:id="@+id/view_chapter_two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:translationZ="2sp"
+        android:backgroundTint="@color/black50"
+        app:layout_constraintBottom_toBottomOf="@id/guideline344"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/guideline346"
+        app:layout_constraintTop_toTopOf="@+id/guideline342"
+        />
+
+    <ImageView
+        android:id="@+id/chapter_two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toBottomOf="@id/guideline344"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/guideline346"
+        app:layout_constraintTop_toTopOf="@+id/guideline342"
+        app:srcCompat="@drawable/plants_iconxxxhdpi" />
+
+    <View
+        android:id="@+id/view_chapter_three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:translationZ="2sp"
+        android:backgroundTint="@color/black50"
+        app:layout_constraintBottom_toBottomOf="@id/guideline344"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/guideline347"
+        app:layout_constraintTop_toTopOf="@+id/guideline342"
+        />
+
+    <ImageView
+        android:id="@+id/chapter_three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toBottomOf="@id/guideline344"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/guideline347"
+        app:layout_constraintTop_toTopOf="@+id/guideline342"
+        app:srcCompat="@drawable/chemistry_iconxxxhdpi" />
+
+    <View
+        android:id="@+id/view_chapter_four"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:translationZ="2sp"
+        android:backgroundTint="@color/black50"
+        app:layout_constraintBottom_toTopOf="@+id/guideline348"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/guideline345"
+        app:layout_constraintTop_toTopOf="@+id/guideline350"
+        />
+
+    <ImageView
+        android:id="@+id/chapter_four"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/guideline348"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/guideline345"
+        app:layout_constraintTop_toTopOf="@+id/guideline350"
+        app:srcCompat="@drawable/scientists_iconxxxhdpi" />
+
+    <View
+        android:id="@+id/view_chapter_five"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:translationZ="2sp"
+        android:backgroundTint="@color/black50"
+        app:layout_constraintBottom_toTopOf="@+id/guideline348"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline346"
+        app:layout_constraintTop_toTopOf="@+id/guideline350"
+        />
+
+
+    <ImageView
+        android:id="@+id/chapter_five"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/guideline348"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline346"
+        app:layout_constraintTop_toTopOf="@+id/guideline350"
+        app:srcCompat="@drawable/geology_iconxxxhdpi" />
+
+    <View
+        android:id="@+id/view_chapter_six"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:translationZ="2sp"
+
+        android:backgroundTint="@color/black50"
+        app:layout_constraintBottom_toTopOf="@+id/guideline348"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/guideline347"
+        app:layout_constraintTop_toTopOf="@+id/guideline350"
+        />
+
+    <ImageView
+        android:id="@+id/chapter_six"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/guideline348"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/guideline347"
+        app:layout_constraintTop_toTopOf="@+id/guideline350"
+        app:srcCompat="@drawable/physics_iconxxxhdpi" />
+
+    <View
+        android:id="@+id/view_chapter_seven"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:translationZ="2sp"
+        android:backgroundTint="@color/black50"
+        app:layout_constraintBottom_toTopOf="@+id/guideline349"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline345"
+        app:layout_constraintTop_toTopOf="@+id/guideline351"
+        />
+
+    <ImageView
+        android:id="@+id/chapter_seven"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/guideline349"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline345"
+        app:layout_constraintTop_toTopOf="@+id/guideline351"
+        app:srcCompat="@drawable/random_science_iconxxxhdpi" />
+
+    <View
+        android:id="@+id/view_chapter_eight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:translationZ="2sp"
+        android:backgroundTint="@color/black50"
+        app:layout_constraintBottom_toTopOf="@+id/guideline349"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline346"
+        app:layout_constraintTop_toTopOf="@+id/guideline351"
+         />
+
+
+    <ImageView
+        android:id="@+id/chapter_eight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline349"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline346"
+        app:layout_constraintTop_toTopOf="@+id/guideline351"
+        app:srcCompat="@drawable/quantum_mechanics_iconxxxhdpi" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline335"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline336"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.14" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline338"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline339"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline341"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline342"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline343"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline344"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline345"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.32" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline346"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.62" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline347"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.92" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline348"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.62" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline349"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.79" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline350"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.47" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline351"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.64" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

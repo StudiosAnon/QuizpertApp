@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+<gradient
+    android:type="linear"
+    android:angle="90"
+    android:startColor="@color/quiz_red"
+
+
+    android:endColor="@color/quizpert_dark_yellow"/>
+
+<stroke
+    android:color="@color/primrose"
+    android:width="4dp"/>
+
+
+
+
+    <corners
+        android:radius="12dp"/>
+
+</shape>
